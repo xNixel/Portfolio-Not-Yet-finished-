@@ -1,0 +1,27 @@
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 0; /* Adjust margin as needed */
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: text-decoration 0.3s ease; /* Smooth transition for underline */
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
